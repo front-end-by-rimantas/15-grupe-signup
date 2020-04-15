@@ -1,51 +1,81 @@
+body {
+    background-color: #4DB9DE;
+}
+
 .container {
-    display: inline-block;
-    width: 600px;
+    width: 800px;
     margin-top: 100px;
-    margin-left: calc( 50% - 300px );
+    margin-left: calc( 50% - 400px );
 }
     .left {
-        display: inline-block;
-        background-color: yellow;
+        width: 40%;
+        float: left;
+        background-color: #5284DC;
     }
         .left > h1 {
-            display: inline-block;
         }
         .left > .links {
-            display: inline-block;
         }
         .left > .links > a {
-            display: inline-block;
         }
         .left > .links > span {
-            display: inline-block;
         }
     .right {
-        display: inline-block;
+        width: 60%;
+        float: left;
         padding: 60px;
-        background-color: aquamarine;
+        background-color: #fff;
     }
+        p {
+            font-size: 20px;
+            line-height: 20px;
+        }
         .right > .close {
-            display: inline-block;
         }
         form {
-            display: inline-block;
+            width: 100%;
         }
             form > .form-row {
-                display: inline-block;
+                width: 100%;
+                border: none;
+                margin-bottom: 30px;
             }
+                form > .form-row:last-child {
+                    margin-bottom: 0;
+                }
                 form > .form-row > label {
-                    display: inline-block;
+                    width: 100%;
+                    color: grey;
+                    font-size: 15px;
+                    line-height: 20px;
+                    text-transform: uppercase;
                 }
                 form > .form-row > input {
-                    display: inline-block;
+                    width: 100%;
+                    font-size: 22px;
+                    line-height: 40px;
+                    border: none;
+                    border-bottom: 2px solid #ccc;
                 }
+                    form > .form-row > input:focus {
+                        outline: none;
+                    }
                 form > .form-row > .btn {
-                    display: inline-block;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    background-color: #005DDA;
+                    color: #fff;
+                    font-size: 20px;
+                    line-height: 40px;
+                    border-radius: 20px;
                 }
                 form > .form-row > span {
-                    display: inline-block;
+                    line-height: 40px;
+                    margin-left: 20px;
+                    margin-right: 20px;
                 }
                 form > .form-row > a {
-                    display: inline-block;
+                    color: #36f;
+                    text-decoration: none;
+                    line-height: 40px;
                 }
