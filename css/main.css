@@ -25,12 +25,18 @@ body {
         float: left;
         padding: 60px;
         background-color: #fff;
+
+        position: relative;
     }
-        p {
-            font-size: 20px;
-            line-height: 20px;
-        }
         .right > .close {
+            width: 60px;
+            line-height: 60px;
+            text-align: center;
+            font-size: 30px;
+
+            position: absolute;
+            top: 0;
+            right: 0;
         }
         form {
             width: 100%;
